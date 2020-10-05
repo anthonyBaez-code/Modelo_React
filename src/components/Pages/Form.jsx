@@ -67,7 +67,7 @@ class Form extends Component{
 
 
 componentDidMount(){
-    let elemento = document.getElementById("form-element")
+    let element= document.getElementById("form-element")
     
     this.intervaloFecha = setInterval(()=>{
         this.cambiarFecha()
